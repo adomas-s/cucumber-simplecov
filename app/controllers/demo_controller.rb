@@ -6,4 +6,8 @@ class DemoController < ApplicationController
   def second_path
     render plain: "Boo"
   end
+
+  def legacy_code
+    raise NotImplementedError
+  end
 end
